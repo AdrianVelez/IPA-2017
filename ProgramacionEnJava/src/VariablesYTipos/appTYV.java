@@ -1,5 +1,10 @@
 package VariablesYTipos;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import com.sun.xml.internal.ws.api.client.SelectOptimalEncodingFeature;
+
+import javax.xml.bind.SchemaOutputResolver;
+
 public class appTYV {
 
     public static void main(String[] args){//Estructura principal del proyecto
@@ -18,7 +23,13 @@ public class appTYV {
         soymaspreciso=23.34;
         palabracorta='a';
 
-        System.out.println(entero + soyUnaPalabra + soydecimal +soymaspreciso + soyUnaPalabra);
+        int resultado;
+
+        resultado = (int)(soydecimal * entero);
+
+        System.out.println(resultado);
+
+        //System.out.println(entero + soyUnaPalabra + soydecimal +soymaspreciso + soyUnaPalabra);
 
 
     }
