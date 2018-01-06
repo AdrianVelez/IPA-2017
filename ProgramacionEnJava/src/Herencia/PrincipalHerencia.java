@@ -7,7 +7,6 @@ public class PrincipalHerencia {
 
     ClaseHija obj2=new ClaseHija();
 
-
     obj2.metodoHija();
 
 
