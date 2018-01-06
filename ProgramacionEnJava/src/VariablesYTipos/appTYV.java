@@ -1,5 +1,6 @@
 package VariablesYTipos;
 
+import Encapsulamiento.ClaseRestringida;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import com.sun.xml.internal.ws.api.client.SelectOptimalEncodingFeature;
 
@@ -8,6 +9,8 @@ import javax.xml.bind.SchemaOutputResolver;
 public class appTYV {
 
     public static void main(String[] args){//Estructura principal del proyecto
+        ClaseRestringida ob2 =new ClaseRestringida();
+        ob2.accesoaMetodoPublico(123335);
 
         int entero;
         boolean elige;
