@@ -6,8 +6,8 @@ public class Principal {
 
     public static void main(String[] args){
 
-        ClaseRestringida objeto2 = new ClaseRestringida();
-        objeto2.accesoaMetodoPublico(122);
+        /*ClaseRestringida objeto2 = new ClaseRestringida();
+        objeto2.accesoaMetodoPublico(122);*/
 
         recipiente vasito= new recipiente();
 
